@@ -12,5 +12,7 @@ __pycache__/
 *.pyd
 .pytest_cache/
 
+data/*.csv
+
 .DS_Store
 Thumbs.db
