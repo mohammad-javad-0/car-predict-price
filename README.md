@@ -20,7 +20,7 @@ The dataset used in this project was obtained from Kaggle:
 **Dataset Source:**  
 https://www.kaggle.com/datasets/nehalbirla/vehicle-dataset-from-cardekho
 
-This dataset contains used car information collected from online platforms and includes vehicle specifications, ownership details, engine features, and pricing information. The `car details v4.csv` file from this dataset was used for this project. :contentReference[oaicite:1]{index=1}
+This dataset contains used car information collected from online platforms and includes vehicle specifications, ownership details, engine features, and pricing information. The `car details v4.csv` file from this dataset was used for this project.
 
 ### How to Use the Dataset
 
@@ -31,16 +31,10 @@ This dataset contains used car information collected from online platforms and i
 car details v4.csv
 ```
 
-3. Rename the file to:
+3. Place the file inside the following directory:
 
 ```
-car.csv
-```
-
-4. Place the file inside the following directory:
-
-```
-data/car.csv
+data/car details v4.csv
 ```
 
 The final project structure should look like this:
@@ -49,7 +43,7 @@ The final project structure should look like this:
 car-price-prediction/
 │
 ├── data/
-│   └── car.csv
+│   └── car details v4.csv
 │
 ├── source_code/
 │   ├── eda.ipynb
@@ -65,10 +59,10 @@ car-price-prediction/
 The notebooks load the dataset from the following path:
 
 ```python
-pd.read_csv('data/car.csv')
+pd.read_csv('data/car details v4.csv')
 ```
 
-Please refer to the original Kaggle dataset page for the dataset license and usage terms. The dataset is published under the Open Database License. :contentReference[oaicite:2]{index=2}
+Please refer to the original Kaggle dataset page for the dataset license and usage terms. The dataset is published under the Open Database License.
 
 ---
 
